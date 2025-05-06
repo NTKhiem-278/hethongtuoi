@@ -23,7 +23,7 @@ Gõ lệnh sau để build các container, image, và volume trong Docker:
 docker compose -f "docker-compose.yml" up -d --build
 
 # Bước 3: Khôi phục dữ liệu cho các volume
-docker run --rm -v docker_openremote-mqtt-broker-volume:/volume -v /d/backups:/backup alpine sh -c "tar -xzvf /backup/docker_openremotelabs-mqtt-broker-volume.tar.gz -C /volume" docker run --rm -v docker_openremote_data:/volume -v /d/backups:/backup alpine sh -c "tar -xzvf /backup/docker_openremote_data.tar.gz -C /volume", copy thư mục backups đem vào ổ d/e
+docker run --rm -v docker_openremote-mqtt-broker-volume:/volume -v /d/backups:/backup alpine sh -c "tar -xzvf /backup/docker_openremotelabs-mqtt-broker-volume.tar.gz -C /volume" docker run --rm -v docker_openremote_data:/volume -v /d/backups:/backup alpine sh -c "tar -xzvf /backup/docker_openremote_data.tar.gz -C /volume", copy thư mục backups đem vào ổ d
 
 # Bước 4: Build và chạy Docker Compose
 Khi chạy dự án sử dụng: localhost:8080 dể có thể vào giao diện của OpenRemote để kết nối cơ sở dữ liệu: mqtt-broker của OpenRemote trong phần Data source. Tiến hành tạo dashboard để có thể show dữ liệu.
