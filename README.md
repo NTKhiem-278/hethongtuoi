@@ -1,10 +1,8 @@
-# hethongtuoi
 
-# Tiểu luận môn Lập trình IoT:XÂY DỰNG HỆ THỐNG BÁO CHÁY 
-PLATFORM 
-TRIỂN KHAI TRÊN NỀN TẢNG OpenRemote
 
-# Các thành viên làm tiểu luận:
+# HỆ THỐNG TƯỚI CÂY TỰ ĐỘNG TRIỂN KHAI TRÊN NỀN TẢNG OPENREMOTE
+
+# Các thành viên:
 Nguyễn Thiện Khiêm - 23050031
 Ngô Nhật Tân – 23050018
 
